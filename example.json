@@ -1,0 +1,16 @@
+{
+    "main_cmd": "npm run build", 
+    "build_output": "build",
+    "frontend_env_path": ".env",
+    "env_host": "REACT_APP_API_URL=",
+    "servers": [
+        {
+            "ip": "xx.xx.xx.xxx",
+            "password": "...",
+            "user": "root",
+            "host": "https://test.ru",
+            "sftp_port": 22,
+            "path": "/home/project"
+        }
+    ]
+}

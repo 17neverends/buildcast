@@ -1,0 +1,17 @@
+linters-settings:
+  unused:
+    check-exported: false
+
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+    - govet
+    - unused
+    - errcheck
+    - staticcheck
+
+issues:
+  exclude-dirs:
+    - vendor
+    - testdata
